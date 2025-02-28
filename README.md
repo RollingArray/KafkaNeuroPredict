@@ -246,9 +246,21 @@ Mean Squared Error: 3.4262379999999992
 Mean Squared Error: 3.3784040000000086
 ```
 
-## **📌 Key Features**
-✅ **Real-time stock price streaming** with Apache Kafka.  
-✅ **Deep learning model** (LSTM/GRU) for time-series forecasting.  
-✅ **Scalable and modular architecture** for future enhancements.  
-✅ **Performance evaluation** with Mean Squared Error.  
+### 🏆 Final Result  
+
+The **KafkaNeuroPredict** system successfully integrates **Kafka streaming** with a **deep learning model** for real-time stock price prediction. Below are the final outcomes of the project:  
+
+#### ✅ **Key Achievements:**  
+- **End-to-End Data Pipeline**: Real-time stock price data is streamed, processed, and used for prediction.  
+- **Deep Learning Model**: The trained model predicts future stock prices based on historical data.  
+- **Kafka Integration**: Producers send stock price data, and consumers process and predict values.  
+- **Error Evaluation**: The model achieved a **Mean Squared Error (MSE) of 3.6187**, indicating reasonable accuracy.  
+
+#### 🔍 **Console Output (Sample Prediction)**  
+```
+Received: {'timestamp': '2025-02-27 21:55:42', 'symbol': 'AAPL', 'price': 242.1}
+Predicted: {'timestamp': '2025-02-27 21:56:00', 'actual_price': 242.1, 'predicted_price': 245.73}
+```
+  
+This project demonstrates the **power of Kafka streaming with machine learning** for real-time financial forecasting! 🚀
 
